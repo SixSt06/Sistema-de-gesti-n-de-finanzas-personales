@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "dotNET.Personal.Finances.Console/1.0.0": {
+        "dependencies": {
+          "dotNET.Personal.Finances.Core": "1.0.0"
+        },
+        "runtime": {
+          "dotNET.Personal.Finances.Console.dll": {}
+        }
+      },
+      "dotNET.Personal.Finances.Core/1.0.0": {
+        "runtime": {
+          "dotNET.Personal.Finances.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotNET.Personal.Finances.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dotNET.Personal.Finances.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

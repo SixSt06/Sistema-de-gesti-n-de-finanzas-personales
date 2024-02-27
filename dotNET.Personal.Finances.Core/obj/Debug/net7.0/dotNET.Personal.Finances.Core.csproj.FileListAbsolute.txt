@@ -1,0 +1,22 @@
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/bin/Debug/net7.0/dotNET.Personal.Finances.Core.deps.json
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/bin/Debug/net7.0/dotNET.Personal.Finances.Core.dll
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/bin/Debug/net7.0/dotNET.Personal.Finances.Core.pdb
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/obj/Debug/net7.0/dotNET.Personal.Finances.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/obj/Debug/net7.0/dotNET.Personal.Finances.Core.AssemblyInfoInputs.cache
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/obj/Debug/net7.0/dotNET.Personal.Finances.Core.AssemblyInfo.cs
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/obj/Debug/net7.0/dotNET.Personal.Finances.Core.csproj.CoreCompileInputs.cache
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/obj/Debug/net7.0/dotNET.Personal.Finances.Core.dll
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/obj/Debug/net7.0/refint/dotNET.Personal.Finances.Core.dll
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/obj/Debug/net7.0/dotNET.Personal.Finances.Core.pdb
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Core/obj/Debug/net7.0/ref/dotNET.Personal.Finances.Core.dll
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\bin\Debug\net7.0\dotNET.Personal.Finances.Core.deps.json
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\bin\Debug\net7.0\dotNET.Personal.Finances.Core.dll
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\bin\Debug\net7.0\dotNET.Personal.Finances.Core.pdb
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\obj\Debug\net7.0\dotNET.Personal.Finances.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\obj\Debug\net7.0\dotNET.Personal.Finances.Core.AssemblyInfoInputs.cache
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\obj\Debug\net7.0\dotNET.Personal.Finances.Core.AssemblyInfo.cs
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\obj\Debug\net7.0\dotNET.Personal.Finances.Core.csproj.CoreCompileInputs.cache
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\obj\Debug\net7.0\dotNET.Personal.Finances.Core.dll
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\obj\Debug\net7.0\refint\dotNET.Personal.Finances.Core.dll
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\obj\Debug\net7.0\dotNET.Personal.Finances.Core.pdb
+C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Core\obj\Debug\net7.0\ref\dotNET.Personal.Finances.Core.dll
