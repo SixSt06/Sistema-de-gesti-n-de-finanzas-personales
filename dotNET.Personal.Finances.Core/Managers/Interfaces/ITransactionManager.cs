@@ -12,7 +12,7 @@ public interface ITransactionManager{
     /*Recibe AccountManager para realizar las operaciones 
     dentro del manejador instanciado en la clase Program, es decir,
     utilizará el servicio instanciado al principio del programa*/
-    bool newTransaction(string concept, double money, TransactionType type, 
+    bool newTransaction(string concept, double money, string category, TransactionType type, 
         int id_account, AccountManager accountManager);
 
 }

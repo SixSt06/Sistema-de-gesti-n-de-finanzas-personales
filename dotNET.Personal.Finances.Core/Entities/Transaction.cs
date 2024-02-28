@@ -11,13 +11,15 @@ public class Transaction {
     public int Id_transaction { get; set; }
     public string Concept { get; set;}
     public double Money { get; set; }
+    public string Category{get; set;}
     public TransactionType Type { get; set; }
     public int Id_account { get; set;}
 
-    public Transaction(int Id_transaction, string Concept, double Money, TransactionType Type, int Id_account){
+    public Transaction(int Id_transaction, string Concept, double Money, string Category, TransactionType Type, int Id_account){
         this.Id_transaction = Id_transaction;
         this.Concept = Concept;
         this.Money = Money;
+        this.Category = Category;
         this.Type = Type;
         this.Id_account = Id_account;
     }

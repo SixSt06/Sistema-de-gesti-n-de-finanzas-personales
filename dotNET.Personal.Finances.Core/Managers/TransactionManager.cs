@@ -14,8 +14,8 @@ public class TransactionManager : ITransactionManager{
         _service = service;
     }
 
-    public bool newTransaction(string concept, double money, TransactionType type, int id_account, AccountManager accountManager){
-        return _service.newTransaction(concept, money, type, id_account, accountManager);
+    public bool newTransaction(string concept, double money, string category, TransactionType type, int id_account, AccountManager accountManager){
+        return _service.newTransaction(concept, money, category, type, id_account, accountManager);
     }
 
 

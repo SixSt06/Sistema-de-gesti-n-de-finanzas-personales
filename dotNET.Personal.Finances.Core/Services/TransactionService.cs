@@ -12,11 +12,11 @@ public class TransactionService : ITransactionService {
 
     IDGenerator generator = new IDGenerator(); //Generador de IDs
 
-    public bool newTransaction(string concept, double money, 
+    public bool newTransaction(string concept, double money, string category,
         TransactionType type, int id_account, AccountManager accountManager){
         try{
             Transaction transaction = new Transaction(generator.getNewID(), 
-                concept, money, type, id_account);
+                concept, money, category, type, id_account);
             
             //Evalua si la transaccion es de tipo ingreso o egreso y actualiza el saldo total
             if(transaction.Type == TransactionType.Egress){
@@ -63,6 +63,4 @@ public class TransactionService : ITransactionService {
             return false;
         }
     }
-    
-
 }

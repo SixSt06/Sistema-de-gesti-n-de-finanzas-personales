@@ -160,7 +160,7 @@ public static class Program
 
                 case "3":
                     System.Console.WriteLine("---- CANCELAR TRANSACCIÓN ----");
-                    // Lógica para cancelar transacción
+                    CancelTransaction(account);
                     break;
 
                 case "4":
@@ -183,9 +183,11 @@ public static class Program
 
                 if (account != null)
                 {
-                    // Ingresar detalles de la transacción
-                    System.Console.Write("Ingrese el concepto de la transacción: ");
+                    System.Console.WriteLine("Ingrese el concepto de la transacción: ");
                     string concept = System.Console.ReadLine();
+
+                    System.Console.WriteLine("Ingrese la categoria de la transaccion: ");
+                    string category = System.Console.ReadLine();
 
                     System.Console.Write("Ingrese el monto de la transacción: ");
                     double amount;
@@ -200,8 +202,7 @@ public static class Program
                     {
                         TransactionType type = (transactionType == 1) ? TransactionType.Income : TransactionType.Egress;
 
-                        // Llamar al método newTransaction
-                        bool result = transactionService.newTransaction(concept, amount, type, Id_account, accountManager);
+                        bool result = transactionService.newTransaction(concept, amount, category, type, Id_account, accountManager);
 
                         if (result)
                         {
@@ -231,13 +232,12 @@ public static class Program
         void GetTransaction()
         {
             System.Console.Write("Ingrese el ID de la transacción: ");
-            if (int.TryParse(System.Console.ReadLine(), out int id_transaction))
+            if (int.TryParse(System.Console.ReadLine(), out int Id_transaction))
             {
                 System.Console.Write("Ingrese el ID de la cuenta: ");
                 if (int.TryParse(System.Console.ReadLine(), out int Id_account))
                 {
-                    // Llamar al método getTransaction
-                    Transaction transaction = transactionService.getTransaction(id_transaction, Id_account);
+                    Transaction transaction = transactionService.getTransaction(Id_transaction, Id_account);
 
                     if (transaction != null)
                     {
@@ -260,6 +260,28 @@ public static class Program
             else
             {
                 System.Console.WriteLine("Ingrese un ID de transacción válido.");
+            }
+        }
+
+        void CancelTransaction(Account account)
+        {
+            System.Console.Write("Ingrese el ID de la transacción a cancelar: ");
+            if (int.TryParse(System.Console.ReadLine(), out int Id_transaccion))
+            {
+                bool resultadoCancelacion = transactionService.cancelTransaction(Id_transaccion, account.Id_account, accountManager);
+
+                if (resultadoCancelacion)
+                {
+                    System.Console.WriteLine("Transacción cancelada con éxito.");
+                }
+                else
+                {
+                    System.Console.WriteLine("No se pudo cancelar la transacción. Ha ocurrido un error.");
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Ingrese un ID válido.");
             }
         }
     }
