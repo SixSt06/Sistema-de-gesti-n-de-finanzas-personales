@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using dotNET.Personal.Finances.Core.Entities;
 using dotNET.Personal.Finances.Core.Services;
 using dotNET.Personal.Finances.Core.Managers;
@@ -286,3 +286,4 @@ public static class Program
         }
     }
 }
+*/

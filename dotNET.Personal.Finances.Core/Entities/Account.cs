@@ -24,4 +24,12 @@ public class Account{
         this.Budget = Budget;
         this.DateGoal = DateGoal;
     }
+
+    public Account(){
+        this.Id_account = 0;
+        this.Owner = "";
+        this.Money = 0;
+        this.Goal = 0;
+        this.Budget = 0;
+    }
 }

@@ -27,4 +27,8 @@ public class TransactionManager : ITransactionManager{
         return _service.cancelTransaction(id_transaction, id_account, accountManager);
     }
 
+    public List<Transaction> listTransactions(){
+        return _service.listTransactions();
+    }
+
 }

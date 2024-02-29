@@ -21,10 +21,6 @@ public class AccountManager : IAccountManager {
         return _service.currentBalance(id_account);
     }
 
-    public string summary(int id_account){
-        return _service.summary(id_account);
-    }
-
     public string report(int id_account){
         return _service.report(id_account);
     }
@@ -35,6 +31,14 @@ public class AccountManager : IAccountManager {
 
     public bool newAccount(string owner, double money, double goal, double budget, double dateGoal){
         return _service.newAccount(owner, money, goal, budget, dateGoal);
+    }
+
+    public string summary(int id_account, TransactionManager transactionManager){
+        return _service.summary(id_account, transactionManager);
+    }
+
+    public List<Account> listAccounts(){
+        return _service.listAccounts();
     }
 
 }

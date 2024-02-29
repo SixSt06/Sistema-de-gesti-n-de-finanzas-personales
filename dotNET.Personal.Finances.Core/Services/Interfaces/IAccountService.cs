@@ -1,5 +1,6 @@
 using dotNET.Personal.Finances.Core.Entities;
 using dotNET.Personal.Finances.Core.Enums;
+using dotNET.Personal.Finances.Core.Managers;
 
 namespace dotNET.Personal.Finances.Core.Services.Interfaces;
 
@@ -14,8 +15,8 @@ public interface IAccountService {
     //Devuelve el saldo actual de la cuenta
     double currentBalance(int id_account);
 
-    //Devuelve un estado de cuenta
-    string summary(int id_account);
+    //Devuelve un estado de cuenta (Transacciones)
+    string summary(int id_account, TransactionManager transactionManager);
 
     //Devuelve la informacion básica de la cuenta
     string report(int id_account);
@@ -24,4 +25,6 @@ public interface IAccountService {
     Transactions y la cuenta, de manera que solo con el id de la cuenta se 
     pueda aumentar o restar el saldo total de la cuenta seleccionada*/
     bool updateBalance(int id_account, double amount); 
+
+    List<Account> listAccounts();
 }

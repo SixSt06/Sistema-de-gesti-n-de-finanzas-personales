@@ -16,21 +16,39 @@
 /home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.pdb
 /home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.genruntimeconfig.cache
 /home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/ref/dotNET.Personal.Finances.Console.dll
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.csproj.AssemblyReference.cache
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.AssemblyInfoInputs.cache
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.AssemblyInfo.cs
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.csproj.CoreCompileInputs.cache
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.dll
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\refint\dotNET.Personal.Finances.Console.dll
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.pdb
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\bin\Debug\net7.0\dotNET.Personal.Finances.Console.exe
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\bin\Debug\net7.0\dotNET.Personal.Finances.Console.deps.json
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\bin\Debug\net7.0\dotNET.Personal.Finances.Console.runtimeconfig.json
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\bin\Debug\net7.0\dotNET.Personal.Finances.Console.dll
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\bin\Debug\net7.0\dotNET.Personal.Finances.Console.pdb
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\bin\Debug\net7.0\dotNET.Personal.Finances.Core.dll
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\bin\Debug\net7.0\dotNET.Personal.Finances.Core.pdb
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.csproj.CopyComplete
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\dotNET.Personal.Finances.Console.genruntimeconfig.cache
-C:\Users\sixst\Documentos\repos\Proyectos .NET\dotNET.Personal.Finances\dotNET.Personal.Finances.Console\obj\Debug\net7.0\ref\dotNET.Personal.Finances.Console.dll
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.csproj.AssemblyReference.cache
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.AssemblyInfoInputs.cache
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.AssemblyInfo.cs
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.csproj.CoreCompileInputs.cache
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.dll
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/refint/dotNET.Personal.Finances.Console.dll
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.pdb
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.exe
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.deps.json
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.runtimeconfig.json
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.dll
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.pdb
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Core.dll
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Core.pdb
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.csproj.CopyComplete
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.genruntimeconfig.cache
+C:/Users/sixst/Documentos/repos/Proyectos .NET/dotNET.Personal.Finances/dotNET.Personal.Finances.Console/obj/Debug/net7.0/ref/dotNET.Personal.Finances.Console.dll
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.deps.json
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.runtimeconfig.json
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.dll
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Console.pdb
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Core.dll
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/bin/Debug/net7.0/dotNET.Personal.Finances.Core.pdb
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.csproj.AssemblyReference.cache
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.GeneratedMSBuildEditorConfig.editorconfig
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.AssemblyInfoInputs.cache
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.AssemblyInfo.cs
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.csproj.CoreCompileInputs.cache
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.csproj.CopyComplete
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.dll
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/refint/dotNET.Personal.Finances.Console.dll
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.pdb
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/dotNET.Personal.Finances.Console.genruntimeconfig.cache
+/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Console/obj/Debug/net7.0/ref/dotNET.Personal.Finances.Console.dll

@@ -1,5 +1,6 @@
 using dotNET.Personal.Finances.Core.Entities;
 using dotNET.Personal.Finances.Core.Enums;
+using dotNET.Personal.Finances.Core.Managers;
 using dotNET.Personal.Finances.Core.Services.Interfaces;
 using System;
 
@@ -42,11 +43,17 @@ public class AccountService : IAccountService {
         }
     }
 
-    public string summary(int id_account){
+    public string summary(int id_account, TransactionManager transactionManager){
         try{
+            string summary = "LISTADO DE TRANSACCIONES: \n";
             Account account = getAccount(id_account);
-            //Pendiente terminar TransactionService
-            return "";
+            List<Transaction> transactions = transactionManager.listTransactions();
+
+            foreach (Transaction transaction in transactions){
+                summary += $"ID: ${transaction.Id_transaction}, Tipo: ${transaction.Type}, Concepto: ${transaction.Concept} -> $ ${transaction.Money}\n";
+            }
+
+            return summary;
         }catch(Exception ex){
             return "HA OCURRIDO UN ERROR";
         }
@@ -81,6 +88,8 @@ public class AccountService : IAccountService {
         }
     }
 
-
+    public List<Account> listAccounts(){
+        return this.accountList;
+    }
 }
 

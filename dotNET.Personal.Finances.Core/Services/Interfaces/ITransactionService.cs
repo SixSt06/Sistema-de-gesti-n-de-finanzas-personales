@@ -19,4 +19,6 @@ public interface ITransactionService {
     bool newTransaction(string concept, double money, string category, TransactionType type, 
         int id_account, AccountManager accountManager);
 
+    //Devuelve la lista de transacciones
+    List<Transaction> listTransactions();
 }

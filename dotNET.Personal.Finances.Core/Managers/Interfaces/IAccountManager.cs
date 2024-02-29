@@ -11,9 +11,11 @@ public interface IAccountManager{
 
     double currentBalance(int id_account);
 
-    string summary(int id_account);
-
     string report(int id_account);
 
     bool updateBalance(int id_account, double amount); 
+
+    string summary(int id_account, TransactionManager transactionManager);
+
+    List<Account> listAccounts();
 }

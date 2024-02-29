@@ -15,4 +15,5 @@ public interface ITransactionManager{
     bool newTransaction(string concept, double money, string category, TransactionType type, 
         int id_account, AccountManager accountManager);
 
+    List<Transaction> listTransactions();
 }

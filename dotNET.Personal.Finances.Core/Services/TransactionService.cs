@@ -63,4 +63,10 @@ public class TransactionService : ITransactionService {
             return false;
         }
     }
+
+    public List<Transaction> listTransactions(){
+        return this.transactions;
+    }
+    
+
 }
