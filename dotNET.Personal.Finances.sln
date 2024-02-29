@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNET.Personal.Finances.Console", "dotNET.Personal.Finances.Console\dotNET.Personal.Finances.Console.csproj", "{0848FE2B-287A-405C-A3A8-DB8E5C440B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNET.Personal.Finances.Core", "dotNET.Personal.Finances.Core\dotNET.Personal.Finances.Core.csproj", "{13436A00-216F-43C7-899A-C53F54B5D8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNET.Personal.Finances.Tests", "dotNET.Personal.Finances.Tests\dotNET.Personal.Finances.Tests.csproj", "{FFF9B0F3-0E71-483B-90AA-76DD71F2341D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0848FE2B-287A-405C-A3A8-DB8E5C440B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0848FE2B-287A-405C-A3A8-DB8E5C440B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0848FE2B-287A-405C-A3A8-DB8E5C440B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0848FE2B-287A-405C-A3A8-DB8E5C440B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13436A00-216F-43C7-899A-C53F54B5D8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13436A00-216F-43C7-899A-C53F54B5D8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13436A00-216F-43C7-899A-C53F54B5D8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13436A00-216F-43C7-899A-C53F54B5D8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF9B0F3-0E71-483B-90AA-76DD71F2341D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF9B0F3-0E71-483B-90AA-76DD71F2341D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF9B0F3-0E71-483B-90AA-76DD71F2341D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF9B0F3-0E71-483B-90AA-76DD71F2341D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

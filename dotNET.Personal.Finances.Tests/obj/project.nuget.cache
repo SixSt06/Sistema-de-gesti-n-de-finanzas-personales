@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QkYb++eiQTdLwOadvdoNF8I+qd5qF5kIyEr+Wtw5UVl9O5YrhQ6Ox5g9OSg+lxI0bA7O00Q0XTpjmE9Bpg4Jog==",
+  "dgSpecHash": "+qK3uvLXoyZBYUCxvrJihkLu8Mgfo4PBN0GI61OwXxEhjXCvFsx4CiCDfrL7Vm5qJyDqPMLrBvvxtM908Z14Ug==",
   "success": true,
-  "projectFilePath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj",
+  "projectFilePath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj",
   "expectedPackageFiles": [
     "/home/starboyc00l/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
     "/home/starboyc00l/.nuget/packages/microsoft.codecoverage/17.7.1/microsoft.codecoverage.17.7.1.nupkg.sha512",

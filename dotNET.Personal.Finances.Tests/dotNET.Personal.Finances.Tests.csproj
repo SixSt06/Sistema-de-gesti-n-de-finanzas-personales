@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\dotNET.Personal.Finances.Core\dotNET.Personal.Finances.Core.csproj" />
+  </ItemGroup>
+
 </Project>

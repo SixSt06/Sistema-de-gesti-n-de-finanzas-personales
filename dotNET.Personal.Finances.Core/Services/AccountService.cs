@@ -13,6 +13,10 @@ public class AccountService : IAccountService {
     IDGenerator generator = new IDGenerator(); //Generador de IDs
 
     public bool newAccount(string owner, double money, double goal, double budget, double dateGoal){
+
+        if (money < 0) {
+            return false;
+        }
         
         try{
             Account account = new Account(generator.getNewID()+1, owner, money, goal, budget, dateGoal); 

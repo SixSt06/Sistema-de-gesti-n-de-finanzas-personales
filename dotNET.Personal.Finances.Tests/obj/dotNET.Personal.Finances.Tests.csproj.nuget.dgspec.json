@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj": {}
+    "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj": {}
   },
   "projects": {
-    "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj": {
+    "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Core/dotNET.Personal.Finances.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj",
-        "projectName": "dotNET.Personal.Finances.Tests",
-        "projectPath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj",
+        "projectUniqueName": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Core/dotNET.Personal.Finances.Core.csproj",
+        "projectName": "dotNET.Personal.Finances.Core",
+        "projectPath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Core/dotNET.Personal.Finances.Core.csproj",
         "packagesPath": "/home/starboyc00l/.nuget/packages/",
-        "outputPath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET personal finances/dotNET.Personal.Finances/dotNET.Personal.Finances.Tests/obj/",
+        "outputPath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/starboyc00l/.nuget/NuGet/NuGet.Config"
@@ -26,6 +26,63 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/7.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj",
+        "projectName": "dotNET.Personal.Finances.Tests",
+        "projectPath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Tests/dotNET.Personal.Finances.Tests.csproj",
+        "packagesPath": "/home/starboyc00l/.nuget/packages/",
+        "outputPath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/starboyc00l/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Core/dotNET.Personal.Finances.Core.csproj": {
+                "projectPath": "/home/starboyc00l/Documents/Programming/dotNET testing/dotNET Personal Finances 2/dotNET.Personal.Finances.Core/dotNET.Personal.Finances.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -75,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/235/sdk/7.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/7.0.406/RuntimeIdentifierGraph.json"
         }
       }
     }

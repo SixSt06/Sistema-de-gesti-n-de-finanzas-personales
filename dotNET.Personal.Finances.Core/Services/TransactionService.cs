@@ -17,7 +17,12 @@ public class TransactionService : ITransactionService {
         try{
             Transaction transaction = new Transaction(generator.getNewID(), 
                 concept, money, category, type, id_account);
+            Account account = accountManager.getAccount(id_account);
             
+            if(!(transaction.Type==TransactionType.Income) && transaction.Money > account.Money){
+            return false;
+            }
+
             //Evalua si la transaccion es de tipo ingreso o egreso y actualiza el saldo total
             if(transaction.Type == TransactionType.Egress){
                 accountManager.updateBalance(id_account, -transaction.Money);
@@ -50,6 +55,12 @@ public class TransactionService : ITransactionService {
         try{
             Transaction transaction = getTransaction(id_transaction, id_account);
             
+            Account account = accountManager.getAccount(id_account);
+            
+            if(!(transaction.Type==TransactionType.Egress) && transaction.Money > account.Money){
+            return false;
+            }
+
             /*Evalua el tipo de transaccion a cancelar para aumentar o restar
             el saldo total de la cuenta, si es egreso -> suma, si es ingresa -> resta*/
             if(transaction.Type == TransactionType.Egress){
