@@ -69,7 +69,67 @@ public static class Program{
 
                         account = SelectAccount(id, accountManager);
 
-                        System.Console.WriteLine($"CUENTA SELECCIONADA: {account.Owner}");
+                        System.Console.WriteLine($"\nCUENTA SELECCIONADA: {account.Owner}\n");
+
+                        //Sub menu de transacciones
+
+                        bool submenu = true;
+
+                        do{
+                            System.Console.WriteLine("\nSeleccione una opción:");
+                            System.Console.WriteLine("1. Nueva Transacción");
+                            System.Console.WriteLine("2. Consultar Estado de cuenta");
+                            System.Console.WriteLine("3. Saldo actual");
+                            System.Console.WriteLine("4. Informe");
+                            //System.Console.WriteLine("4. Cancelar Transacción");
+                            System.Console.WriteLine("5. Salir");
+                            System.Console.Write("Ingresa una opcion: ");
+
+                            string opcionx = System.Console.ReadLine();
+
+                            switch (opcionx){
+                                case "1":
+                                    System.Console.WriteLine("\n---- NUEVA TRANSACCION ----");
+                                    NewTransaction(accountManager);
+                                    break;
+
+                                case "2":
+                                    System.Console.WriteLine("\n---- CONSULTAR ESTADO DE CUENTA ----");
+                                    GetTransactions(transactionManager, account);
+                                    break;
+
+                                case "3":
+                                    System.Console.WriteLine("\n---- SALDO ACTUAL ----");
+                                    GetCurrentBalance(accountManager, account);
+                                    break;
+                                /*
+                                case "4":
+                                    System.Console.WriteLine("---- CANCELAR TRANSACCIÓN ----");
+                                    
+                                    if(CancelTransaction(account.Id_account, accountManager)){
+                                        System.Console.WriteLine("\nCancelada correctamente\n");
+                                    }else{
+                                        System.Console.WriteLine("\nOperación rechazada\n");
+                                    }
+                                    
+                                    break;*/
+
+                                case "4":
+                                    System.Console.WriteLine("\n---- INFORMACIÓN ----");
+                                    System.Console.WriteLine(accountManager.report(account.Id_account)+"\n");
+                                    break;
+
+                                case "5":
+                                    System.Console.WriteLine("Volviendo al menu principal...");
+                                    submenu = false;
+                                    break;
+
+                                default:
+                                    System.Console.WriteLine("Opción no válida. Intente de nuevo.");
+                                    break;
+                            }               
+                        }while(submenu);
+
 
                         break;
                     
@@ -77,12 +137,12 @@ public static class Program{
                         menu = false;
                         break;
                     default:
-                        System.Console.WriteLine("NO EXISTE ESA OPCION\n");
+                        System.Console.WriteLine("\nNO EXISTE ESA OPCION\n");
                         break;
                 }
 
             }else{
-                System.Console.WriteLine("SOLO OPCIONES VÁLIDAS");
+                System.Console.WriteLine("\nSOLO OPCIONES VÁLIDAS\n");
             }
 
         } while (menu);
@@ -162,7 +222,7 @@ public static class Program{
                 System.Console.Write("Ingrese el ID de la cuenta a consultar: ");
                 if (int.TryParse(System.Console.ReadLine(), out int Id_account)){
                     Account account = accountService.getAccount(Id_account);
-                    string summary = accountService.report(Id_account);
+                    string summary = accountService.summary(Id_account, transactionManager);
 
                     if (account != null){
                         System.Console.WriteLine(summary);
@@ -181,6 +241,88 @@ public static class Program{
 
             
         }
+
+        void NewTransaction(AccountManager accountManager){
+            if (account != null){
+                double amount = 0;
+                string concept = "";
+                string category = "";
+
+                System.Console.WriteLine("Ingrese el concepto de la transacción: ");
+                concept = System.Console.ReadLine();
+
+                System.Console.WriteLine("Ingrese la categoria de la transaccion: ");
+                category = System.Console.ReadLine();
+
+                System.Console.Write("Ingrese el monto de la transacción: ");
+                
+                while (!double.TryParse(System.Console.ReadLine(), out amount) || amount < 0){
+                    System.Console.WriteLine("Ingrese un monto válido.");
+                    System.Console.Write("Ingrese el monto de la transacción: ");
+                }
+
+                System.Console.Write("Seleccione el tipo de transacción (1: Ingreso, 2: Egreso): ");
+                if (int.TryParse(System.Console.ReadLine(), out int transactionType) && (transactionType == 1 || transactionType == 2)){
+                    TransactionType type = (transactionType == 1) ? TransactionType.Income : TransactionType.Egress;
+
+                    bool result = transactionService.newTransaction(concept, amount, category, type, account.Id_account, accountManager);
+
+                    if (result){
+                        System.Console.WriteLine("Transacción realizada con éxito.");
+                    }else{
+                        System.Console.WriteLine("No se pudo realizar la transacción. Ha ocurrido un error.");
+                    }
+
+                }else{
+                    System.Console.WriteLine("Seleccione un tipo de transacción válido (1 o 2).");
+                }
+            }else{
+                System.Console.WriteLine("No se encontró ninguna cuenta con el ID proporcionado.");
+            }
+        }
+
+        bool CancelTransaction(int id_account, AccountManager accountManager){
+            try{
+                
+                int id_transactionc = 0;
+
+                System.Console.Write("Ingrese el ID de la transacción: ");
+
+                while (!int.TryParse(System.Console.ReadLine(), out id_transactionc) || id_transactionc < 0){
+                    System.Console.WriteLine("\nIngrese una transaccion valida.");
+                    System.Console.Write("Ingrese el ID de la transacción: ");
+                }
+
+                transactionManager.cancelTransaction(id_transactionc, id_account, accountManager);
+
+                return true;
+            }catch(Exception){
+                return false;
+            }
+        }
+
+        void GetTransactions(TransactionManager transactionManager, Account account){
+            
+            List<Transaction> transactions = transactionManager.listTransactions();
+
+            foreach (Transaction trans in transactions){
+                if(trans.Id_account == account.Id_account){
+                    System.Console.WriteLine($"ID: {trans.Id_transaction}, Tipo: {trans.Type}, Concepto: {trans.Concept} -> Monto: {trans.Money}");
+                }
+            }
+            
+            
+        }
+
+        void GetCurrentBalance(AccountManager accountManager, Account account){
+            try{
+                double currentBalance = accountManager.currentBalance(account.Id_account);
+                System.Console.WriteLine($"\nSALDO ACTUAL: {currentBalance}\n");
+            }catch(Exception){
+
+            }
+        }
+
 
     }
 
